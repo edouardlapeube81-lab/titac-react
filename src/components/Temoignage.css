@@ -1,0 +1,24 @@
+#temoignage { background: var(--noir); }
+
+.temoignages-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem; max-width: 1000px; margin: 0 auto;
+}
+.temoignage-card {
+  background: var(--noir2); border: 1px solid #333;
+  border-radius: 12px; padding: 1.5rem;
+}
+.stars { color: var(--orange); font-size: 16px; margin-bottom: 0.75rem; }
+.temoignage-card > p {
+  font-size: 14px; color: #bbb; line-height: 1.7;
+  margin-bottom: 1rem; font-style: italic;
+}
+.temoignage-author { display: flex; align-items: center; gap: 10px; }
+.av {
+  width: 38px; height: 38px; border-radius: 50%;
+  background: var(--orange); display: flex; align-items: center;
+  justify-content: center; font-size: 13px; font-weight: 700;
+  color: var(--blanc); flex-shrink: 0;
+}
+.temoignage-author strong { display: block; font-size: 13px; }
+.temoignage-author small { font-size: 11px; color: #777; }

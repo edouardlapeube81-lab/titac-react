@@ -1,0 +1,29 @@
+#accueil {
+  min-height: 92vh;
+  background: linear-gradient(135deg, #1A1A1A 60%, #2C1500 100%);
+  display: flex; align-items: center; justify-content: center; text-align: center;
+}
+.hero-badge {
+  background: var(--orange); color: var(--blanc);
+  font-size: 13px; padding: 5px 18px; border-radius: 20px;
+  display: inline-block; margin-bottom: 1.5rem;
+}
+#accueil h1 { font-size: 60px; line-height: 1.15; margin-bottom: 1rem; }
+#accueil h1 span { color: var(--orange); }
+.hero-content > p { font-size: 18px; color: #aaa; max-width: 520px; margin: 0 auto 2rem; line-height: 1.7; }
+.hero-btns { display: flex; gap: 1rem; justify-content: center; }
+.btn-primary {
+  background: var(--orange); color: var(--blanc);
+  padding: 14px 36px; border-radius: 8px; font-size: 16px; text-decoration: none;
+}
+.btn-primary:hover { background: var(--orange-dark); }
+.btn-outline {
+  background: transparent; color: var(--orange);
+  border: 1.5px solid var(--orange); padding: 13px 36px;
+  border-radius: 8px; font-size: 16px; text-decoration: none;
+}
+.btn-outline:hover { background: var(--orange); color: var(--blanc); }
+.stats { display: flex; gap: 3rem; justify-content: center; margin-top: 3rem; }
+.stat { text-align: center; }
+.stat strong { display: block; font-size: 32px; color: var(--orange); }
+.stat span { font-size: 13px; color: #aaa; }

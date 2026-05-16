@@ -1,0 +1,14 @@
+nav.navbar {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(26,26,26,0.97);
+  border-bottom: 2px solid var(--orange);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 2rem; height: 64px;
+}
+.logo { font-size: 26px; font-weight: 700; color: var(--orange); letter-spacing: 2px; }
+.nav-links { display: flex; gap: 1rem; list-style: none; }
+.nav-links a {
+  color: var(--blanc); text-decoration: none; font-size: 14px;
+  padding: 6px 14px; border-radius: 6px; transition: all 0.2s;
+}
+.nav-links a:hover, .nav-links a.active { background: var(--orange); }

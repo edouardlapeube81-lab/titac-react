@@ -1,0 +1,16 @@
+#apropos { background: var(--noir); }
+
+.apropos-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 4rem; align-items: center; max-width: 900px; margin: 0 auto;
+}
+.apropos-img {
+  background: var(--noir2); border: 2px solid var(--orange);
+  border-radius: 16px; height: 320px;
+  display: flex; align-items: center; justify-content: center; font-size: 80px;
+}
+.apropos-text h2 { font-size: 32px; margin-bottom: 1rem; }
+.apropos-text h2 span { color: var(--orange); }
+.apropos-text p { color: #aaa; line-height: 1.8; margin-bottom: 1rem; }
+.features { list-style: none; margin-top: 1rem; }
+.features li { padding: 6px 0; font-size: 14px; color: #ccc; }

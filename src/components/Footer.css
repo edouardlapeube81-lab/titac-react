@@ -1,0 +1,10 @@
+footer {
+  background: #111; border-top: 2px solid var(--orange);
+  text-align: center; padding: 2rem; color: #666; font-size: 13px;
+}
+.footer-logo {
+  font-size: 22px; font-weight: 700;
+  color: var(--orange); margin-bottom: 0.5rem;
+}
+.copy { margin-top: 1rem; }
+.copy span { color: var(--orange); }
