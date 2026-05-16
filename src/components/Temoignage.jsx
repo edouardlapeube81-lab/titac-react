@@ -6,7 +6,7 @@ export default function Temoignage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/temoignages")
+    fetch("https://daffodil-mountain-swirl.ngrok-free.dev/api/plats")
       .then(res => res.json())
       .then(data => {
         setTemoignages(data);

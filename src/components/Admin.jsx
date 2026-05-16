@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Admin.css";
 
-const API = "http://localhost:8080/api";
+const API = "https://daffodil-mountain-swirl.ngrok-free.dev/api";
 
 export default function Admin() {
   const [plats, setPlats] = useState([]);
